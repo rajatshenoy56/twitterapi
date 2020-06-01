@@ -39,7 +39,7 @@ api/users/follow/<pk>/: To follow a user, After following the user its status po
 
 api/status/: Will list all of our status posts
 
-api/status/create: To post a status
+api/status/create/: To post a status
 
 api/status/<pk>/: To retrieve details about a particular status
 
@@ -55,4 +55,4 @@ api/status/like/<pk>/: To like a post
 
 
 
-api/comments/create/<pk>: Will create a comment for the given status
+api/comments/create/<pk>/: Will create a comment for the given status
