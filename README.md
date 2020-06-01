@@ -17,8 +17,9 @@ Steps to run the app:
 
 8.python3 manage.py runserver
 
-
 The API is a browsable API implemented in DjangoRestFramework
+
+##Endpoints
 
 To register a user user use the api/users/register endpoint
 
