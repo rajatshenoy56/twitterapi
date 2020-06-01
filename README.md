@@ -37,7 +37,7 @@ api/users/follow/<pk>/ : To follow a user, After following the user its status p
 
 
 
-api/status/ : Will list all of our status posts
+api/status/: Will list all of our status posts
 
 api/status/create/ : To post a status
 
