@@ -55,4 +55,4 @@ api/status/like/<pk>/ : To like a post
 
 
 
-api/comments/create/<pk>/ : Will create a comment for the given status
+api/comments/create/<pk>/: Will create a comment for the given status
