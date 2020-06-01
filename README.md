@@ -56,3 +56,6 @@ api/status/like/<pk>/ : To like a post
 
 
 api/comments/create/<pk>/: Will create a comment for the given status
+
+
+NOTE : If there are double slashes visible in the urls, those are single slashes only
