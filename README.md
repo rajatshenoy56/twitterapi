@@ -29,11 +29,11 @@ After this step login from the given username and password by clicking on the lo
 
 api/users/list/ : To list all the users
 
-api/users/<pk>/ : To retrieve details about a particular user
+api/users/\<pk>/ : To retrieve details about a particular user
   
 After creating multiple users we can follow other users
 
-api/users/follow/<pk>/ : To follow a user, After following the user its status posts will be visible to us
+api/users/follow/\<pk>/ : To follow a user, After following the user its status posts will be visible to us
 
 
 
@@ -41,21 +41,19 @@ api/status/: Will list all of our status posts
 
 api/status/create/ : To post a status
 
-api/status/<pk>/ : To retrieve details about a particular status
+api/status/\<pk>/ : To retrieve details about a particular status
 
-api/status/<pk>/update/ : To update details about a particular status
+api/status/\<pk>/update/ : To update details about a particular status
 
-api/status/<pk>/destroy/ : To delete a particular status
+api/status/\<pk>/destroy/ : To delete a particular status
   
 api/status/list_all/ : Will list all the status posts of the users whom we follow
 
-api/status/share/<pk>/ : To share a post
+api/status/share/\<pk>/ : To share a post
 
-api/status/like/<pk>/ : To like a post
-
-
-
-api/comments/create/<pk>/: Will create a comment for the given status
+api/status/like/\<pk>/ : To like a post
 
 
-NOTE : If there are double slashes visible in the urls, those are single slashes only
+
+api/comments/create/\<pk>/: Will create a comment for the given status
+
